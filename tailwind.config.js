@@ -13,6 +13,22 @@ module.exports = {
         extraDark: '#0B0B0B',
         muted: '#57585A',
         skiyBlue: '#0057FF',
+      },
+      fontSize: {
+        sm: [
+          '13px',
+          {
+            lineHeight: '21px',
+            letterSpacing: '-0.01em',
+            fontWeight: '400',
+          },
+        ],
+        xs: [
+          '11px',
+          {
+            lineHeight: '21px',
+            letterSpacing: '-0.01em',
+            fontWeight: '400',
           },
         ],
 
