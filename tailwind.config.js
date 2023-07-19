@@ -3,26 +3,16 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#1E1E1E',
         secondary: 'var(--secondaryColor)',
         extraDark: '#0B0B0B',
         muted: '#57585A',
         skiyBlue: '#0057FF',
-      },
-      fontSize: {
-        sm: [
-          '13px',
-          {
-            lineHeight: '21px',
-            letterSpacing: '-0.01em',
-            fontWeight: '400',
-          },
-        ],
-        xs: [
-          '11px',
-          {
-            lineHeight: '21px',
-            letterSpacing: '-0.01em',
-            fontWeight: '400',
           },
         ],
 
